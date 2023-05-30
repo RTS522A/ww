@@ -30,7 +30,7 @@ jobs:
         shell: cmd
       - uses: actions/upload-artifact@v3
         with:
-          path: "D:\a\ww\ww\script\..\dll\x64\webview.dll"
+          path: D:\a\ww\ww\dll\x64\webview.dll
 
   swig:
     runs-on: ubuntu-latest
